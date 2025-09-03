@@ -1,0 +1,101 @@
+.portfolio-card-index {
+	background-color: white;
+}
+body {
+    background-color: #eee0e5;
+}
+
+
+.galerie {
+margin-left: auto;
+}
+
+.Collage {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.WBH {
+    width: 300px;
+    font-size: medium;
+}
+
+.home-dsc {
+    font-size: large;
+    color: rgb(14, 13, 54);
+    text-align: justify;
+
+}
+
+.cinfo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.upl {
+    width: 100%;   
+   }
+
+.LDH {
+    width: 300px;
+}
+
+.title {
+    width: 100%;
+    max-height: 50px;
+}
+
+.titles {
+    max-width: 50%;
+}
+
+.demo-card-image__filename {
+    color: rgb(247, 255, 176);
+}
+
+.PRDL {
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.LDHI {
+    padding-top: 30px;
+}
+
+.page-content {
+    align-content: center;
+    padding: 30px 30px ;
+}
+
+.article-image{
+    float:left;
+    margin-right: 10px ;
+    margin-bottom: 10px;
+    border-radius: 18px;
+
+}
+
+.flexpr {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.portfolio-max-width {
+    max-width: 1600px;
+    margin: auto;
+  }
+
+.portfolio-card-index {
+	width: 80% !important;
+}
+.portfolio-card p {
+    line-height: 18px;
+    text-align: justify;
+    hyphens: auto;
+    color: rgb(14, 13, 54);
+
+}
+div.mdl-layout__drawer-button > i  {
+    margin-top:12px;
+}
