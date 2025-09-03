@@ -1,8 +1,20 @@
+* {
+  font-family: 'Equestria', Arial, sans-serif !important;
+}
+
+@font-face {
+  font-family: 'Equestria';
+  src: url('fonts/Equestria.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .portfolio-card-index {
 	background-color: white;
 }
 body {
     background-color: #eee0e5;
+    font-family: 'Equestria', Arial, sans-serif;
 }
 
 
@@ -21,7 +33,6 @@ margin-left: auto;
 }
 
 .home-dsc {
-    font-size: large;
     color: rgb(14, 13, 54);
     text-align: justify;
 
@@ -94,8 +105,31 @@ margin-left: auto;
     text-align: justify;
     hyphens: auto;
     color: rgb(14, 13, 54);
+    font-size: large;
 
 }
 div.mdl-layout__drawer-button > i  {
     margin-top:12px;
+}
+
+.video {
+  background: transparent;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.video video {
+  background: transparent;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.portfolio-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: transparent;
+  box-shadow: none;
 }
